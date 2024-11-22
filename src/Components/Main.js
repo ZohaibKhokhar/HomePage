@@ -45,7 +45,7 @@ const Main = () => {
                     <p>EFFECTIVE AFFINITIES</p>
                     <p>SINCE 1853</p>
                     <PersonalizeButton
-                            dataElement="Discover"
+                            dataElement="DISCOVER"
                             url="https://www.goyard.com/eu_en/online-personalisation.html"
                             colore="white"
                     />

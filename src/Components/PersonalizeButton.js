@@ -17,12 +17,14 @@ const PersonalizeButton = ({ dataElement,url,colore }) => {
                 style={{
                     textDecoration: 'underline', // Ensures the underline is visible
                     textDecorationColor: 'orange', // Changes the underline color to orange
-                    textUnderlineOffset: '10px', // Adjusted spacing between the text and underline
-                    textDecorationThickness: '1px', // Adjusts the thickness of the underline
-                    color:colore, // Adjust text color
-                    fontSize:'14px',
-                    fontFamily:'monospace'
+                    textUnderlineOffset: '10px', // Adjusts spacing between the text and underline
+                    textDecorationThickness: '0.5px', // Adjusts thickness of the underline
+                    color: colore, // Replace 'orange' with the actual variable or value for text color
+                    fontSize: '14px',
+                    fontFamily: "'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif",
+                    marginBottom: '20px'
                 }}
+                
             >
                 {dataElement}
             </a>

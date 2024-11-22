@@ -7,16 +7,14 @@ const TheArt = () => {
             style={{
                 backgroundColor: "#f5f1ee",
                 padding: "0",
-                height: "100vh", // Ensure full viewport height
-                marginTop:"10px"
+                paddingTop:'100px'
                
             }}
         >
             <div
                 className="row no-gutters"
                 style={{
-                    height: "100vh", // Ensure the row takes the full viewport height
-                    margin: "0", // Avoid default row margins
+                    marginTop: "100" // Avoid default row margins
                 }}
             >
                 {/* Column with text */}
@@ -44,7 +42,7 @@ const TheArt = () => {
                             <p>AN ANCESTRAL</p>
                             <p>TRADITION</p>
                         </div>
-                        <PersonalizeButton dataElement="Personalize Online" url="https://www.goyard.com/eu_en/online-personalisation.html" colore="black"/>
+                        <PersonalizeButton dataElement="PERSONALIZE ONLINE" url="https://www.goyard.com/eu_en/online-personalisation.html" colore="black"/>
                     </div>
                 </div>
 

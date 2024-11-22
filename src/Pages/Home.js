@@ -7,7 +7,7 @@ import TreasureTroves from "../Components/TreasureTroves";
 import CenteredTextWithVideoBackground from "../Components/CenteredTextWithVideoBackground";
 import GoyardGazette from "../Components/GoyardGazette";
 import Footer from "../Components/Footer";
-import CopyRight from "../Components/CopyRight";
+import SliderComponent from "../Components/SliderComponent";
 const Home = () => {
     return ( 
         <div>
@@ -19,8 +19,10 @@ const Home = () => {
           <CenteredTextWithVideoBackground></CenteredTextWithVideoBackground>
           <TreasureTroves></TreasureTroves>
           <GoyardGazette></GoyardGazette>
+          <SliderComponent></SliderComponent>
           <Footer></Footer>
-          <CopyRight></CopyRight>
+      
+        
           
         </div>
      );

@@ -1,33 +1,5 @@
-import React, { useState, useEffect } from "react";
 
-const Nav2 = () => {
-    const [isVisible, setIsVisible] = useState(true);
-    let lastScrollY = window.scrollY; // To keep track of the last scroll position
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-
-            if (currentScrollY > lastScrollY) {
-                // If user scrolls down, hide Nav2
-                setIsVisible(false);
-            } else {
-                // If user scrolls up, show Nav2
-                setIsVisible(true);
-            }
-
-            // Update last scroll position
-            lastScrollY = currentScrollY;
-        };
-
-        // Attach the event listener
-        window.addEventListener("scroll", handleScroll);
-
-        // Clean up the event listener on component unmount
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+const Nav2 = ({isVisible}) => {
 
     return (
         <div className={`nav2 ${isVisible ? "visible" : "hidden"}`}>
